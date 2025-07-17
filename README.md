@@ -46,7 +46,7 @@ A Python-based flight tracking and alert system that automates the search for lo
 
     FLow of the Program can be understood through from this image.
 
-    <img src="Resources/Flow of the Program.png" class="center">
+    <img src="Images/Flow of the Program.png" class="center">
 
     Flight Data Initialization:
     User inputs cities and preferred travel details in a Google Sheet.
