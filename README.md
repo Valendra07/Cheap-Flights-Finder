@@ -46,13 +46,19 @@ A Python-based flight tracking and alert system that automates the search for lo
 
     FLow of the Program can be understood through from this image.
 
-    <img src="Images/Flow of the Program.png" class="center">
+   <p align="center">
+  <img src="Images/Flow of the Program.png" alt="Program Flow" width="600">
+   </p>
+
 
     Flight Data Initialization:
     User inputs cities and preferred travel details in a Google Sheet.
 
     IATA Code Lookup:
-    The script fetches IATA codes via Sheety and stores them in the sheet.
+    The script fetches IATA codes via Amadeus API and stores them in the sheet.
+  <p align="center">
+  <img src="Images/Google Sheet.png" alt="Program Flow" width="600">
+   </p>
 
     Price Check:
     The Amadeus API is used to fetch flight prices and availability.
